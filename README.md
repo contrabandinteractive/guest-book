@@ -15,3 +15,8 @@ To run this project locally:
    full list of `scripts` you can run with `yarn`)
 
 Now you'll have a local development environment backed by the NEAR TestNet! Running `yarn dev` will tell you the URL you can visit in your browser to see the app.
+
+Under the Hood
+===========
+
+Sonata uses the **IPFS HTTP Client Library** to upload song files to IPFS. This project previously used Crust, but now uses IPFS exclusively. More info here: https://github.com/ipfs/js-ipfs/tree/master/packages/ipfs-http-client#readme
